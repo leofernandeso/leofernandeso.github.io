@@ -31,8 +31,6 @@ Check the video below in order to visualize the final result!
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/hau.mp4" class="img-fluid rounded z-depth-1" %}
+        <iframe width="768" height="512" src="https://www.youtube.com/embed/E8QOpry4VkY" frameborder="0" allowfullscreen></iframe>
     </div>
 </div>
-
-
