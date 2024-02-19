@@ -4,7 +4,7 @@ title: Task space control tracking with a UR-10 robot
 description: Tracking objects with an UR10 robot.
 img: assets/img/ur10.png
 importance: 2
-category: work
+category: projects
 ---
 
 ### Overview

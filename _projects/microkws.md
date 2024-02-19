@@ -4,7 +4,7 @@ title: MicroKWS - TinyML Keyword Spotting
 description: Running deep learning models with cheap hardware seems increasingly possible. This was the focus of this project.
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: projects
 related_publications: false
 ---
 

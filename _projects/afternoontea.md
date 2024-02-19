@@ -4,7 +4,7 @@ title: AfternoonTea
 description: Human activity understanding with computer vision
 img: assets/img/afternoontea-thumbnail.png
 importance: 3
-category: work
+category: projects
 ---
 
 ### Overview
