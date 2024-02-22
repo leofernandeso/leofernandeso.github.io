@@ -9,7 +9,7 @@ category: projects
 
 ### Overview
 
-In a project for the Multisensory Robot Dynamic Manipulation course at TUM, I developed a task space controller for an UR-10 robot, enabling it to accurately track a red marker within its environment. This task was accomplished by integrating advanced control algorithms with a simplistic yet effective perception system, utilizing a RGB-D sensor to detect and locate the marker.
+In this project, I developed a task space controller for an UR-10 robot, enabling it to accurately track a red marker within its environment. This task was accomplished by integrating advanced control algorithms with a simplistic yet effective perception system, utilizing a RGB-D sensor to detect and locate the marker.
 
 ### Task space control
 

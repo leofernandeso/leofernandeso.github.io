@@ -17,3 +17,5 @@ Let's say you trained your deep learning model with TensorFlow. You can now make
 Beyond that, one can also make use of ML compilers, which can take your optimized TFLite models and compile them to a binary which can be run on any CPU. For instance, [Apache TVM](https://tvm.apache.org/) is a tool that can transpile your .tflite model to C code, enabling the use of any optimizations that your compiler might offer, which can lead to significant speedups in your model. It is even possible to get to the point where you can run a deep learning model in a microcontroller. Of course, you will not be able to run any model on a microcontroller, but the fact that you can run a small to medium-sized model is already something to be excited about.
 
 And this was exactly the focus of this project. Given a simple ML task, the final goal was to have this task deployed in a microcontroller.
+
+video demo coming soon!
