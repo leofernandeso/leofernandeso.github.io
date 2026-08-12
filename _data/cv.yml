@@ -2,96 +2,124 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Leonardo Oliveira
+    - name: Address
+      value: Ebenauer Straße 8, Munich, Germany
+    - name: Phone
+      value: +4917674947242
+    - name: Email
+      value: leonardo.fernandes.oliv@gmail.com
+    - name: LinkedIn
+      value: linkedin.com/in/leonardo-oliveira-425a5b148/
 
-- title: Education
-  type: time_table
+- title: Profile
+  type: list
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - Robotics software engineer working on SLAM for autonomous mobile robots. Interested in state estimation, perception, and building reliable robotic systems.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Robotics Software Engineer
+      institution: idealworks GmbH
+      year: Oct 2024 - Present
+      location: Munich, Germany
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Developed SLAM and localization software for indoor AMR fleets using sensor fusion between LiDAR and wheel odometry, with focus on robustness during long-term robot operation.
+        - Main developer of a benchmarking system for live SLAM and localization components, enabling systematic evaluation and comparison of localization approaches on real robot data.
+        - Implemented robot behavior for intralogistics AMRs using behavior trees, translating customer requirements into production robot behavior.
+        - Developed ROS 2 perception components using LiDAR and camera data, including processing pipelines based on PCL and OpenCV.
+        - 'Stack: C++, ROS 2, CMake, Bazel, PCL, OpenCV'
+
+    - title: Software Engineer – Working Student
+      institution: NavVis GmbH
+      year: Aug 2022 - Sep 2024
+      location: Munich, Germany
       description:
-        - Description 1.
-        - Description 2.
+        - Main developer of an image denoising feature that significantly improved image quality while balancing cloud inference costs; recognized internally as one of the company’s top features launched in 2023.
+        - Implemented camera auto-exposure algorithms and evaluated image quality across camera sensors and lenses.
+        - Contributed to production software through debugging, testing, and implementation of new features in a large codebase.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Systems Safety Engineer – Working Student
+      institution: Fraunhofer IKS
+      year: Jan 2022 - Jul 2022
+      location: Munich, Germany
       description:
+        - Simulated autonomous driving scenarios using CARLA and Scenic.
+        - Trained and evaluated deep learning-based object detection algorithms, including YOLOv5, for research purposes.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Freelance Software Developer
+      institution: Pionix GmbH
+      year: Apr 2021 - Jan 2022
+      location: Bad Schönborn, Germany (remote)
+      description:
+        - Implemented EV charging algorithms to optimize energy costs by balancing external grid energy and locally generated solar panel energy.
+        - Developed low-level communication protocols in C++ and Node.js to retrieve data from different electrical devices.
+        - Integrated the protocols into the internal software stack and wrote unit tests.
 
-- title: Open Source Projects
+    - title: Freelance Data Scientist
+      institution: Zippia
+      year: Feb 2021 - Sep 2021
+      location: San Francisco, CA, USA (remote)
+      description:
+        - Worked on deep learning and natural language processing projects using Python.
+        - Built the backend of an API for a form-filler Chrome extension using Python and FastAPI.
+        - Developed data processing, ingestion, and monitoring pipelines using Apache Airflow.
+
+    - title: Data Scientist Intern
+      institution: Robert Bosch GmbH
+      year: Jan 2020 - Jan 2021
+      location: Stuttgart, Germany
+      description:
+        - Developed a vehicle emissions estimation model using machine learning, driving behavior data, and geospatial emissions data.
+        - Built ETL pipelines to automate statistical analyses.
+
+    - title: Computer Vision Intern
+      institution: 3P Tecnologia
+      year: Jan 2019 - May 2019
+      location: São Carlos, SP, Brazil
+      description:
+        - Developed an algorithm to detect the absence of products on supermarket shelves.
+        - Set up and validated different deep learning-based techniques.
+
+- title: Skills
+  type: list_groups
+  contents:
+    - name: Languages
+      items: C++, Python, C, Bash
+    - name: Robotics
+      items: ROS, ROS 2, SLAM, localization, odometry, sensor fusion
+    - name: State Estimation
+      items: Non-linear optimization, factor graphs, Ceres, g2o, GTSAM
+    - name: Computer Vision
+      items: 3D computer vision, multi-view geometry, OpenCV, PCL, LibRAW
+    - name: Machine Learning
+      items: PyTorch, TensorFlow/Keras, scikit-learn
+    - name: Tools
+      items: Docker, Git, CMake, Bazel
+
+- title: Education
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Master of Electrical and Computer Engineering
+      institution: Technical University of Munich
+      year: 2024
+      description:
+        - 'Final thesis: Self-supervised depth completion with uncertainty'
+        - 'Research project: Depth completion for LiDAR-visual-inertial SLAM'
+        - 'Grade: 1.5 German scale, 1.0 best'
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: Bachelor of Electrical Engineering
+      institution: University of São Paulo
+      year: 2020
+      description:
+        - 'Final thesis: Development of a seizure prediction technique using electroencephalography data and machine learning algorithms'
+        - 'Research project: Implementation and validation of a convolutional neural network to reduce Poisson noise in mammographic images'
+        - 'Grade: 7.3/10'
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Languages
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - 'Portuguese: Native'
+    - 'English: Fluent'
+    - 'German: Fluent (Goethe C1 Zertifikat)'
